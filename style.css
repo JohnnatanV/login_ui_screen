@@ -75,6 +75,15 @@ section {
   justify-content: center;
 }
 
+.title h1 {
+  font-size: 3rem;
+  margin-bottom: 25px;
+}
+
+.title p {
+  margin-bottom: 35px;
+}
+
 form {
   width: 100%;
 }
@@ -82,6 +91,17 @@ form {
 form .input-box {
   display: flex;
   flex-direction: column;
+}
+
+form .input-box label {
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+form .input-box input {
+  font-size: 1.11rem;
+  padding: 10px;
+  margin-bottom: 18px;
 }
 
 .password-box {
