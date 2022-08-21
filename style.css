@@ -105,7 +105,7 @@ form .input-box input {
   padding: 10px;
   margin-bottom: 18px;
   border: 1px solid rgb(184, 173, 214);
-  border-radius: 15px;
+  border-radius: 12px;
 }
 
 form .input-box input::placeholder {
@@ -120,4 +120,22 @@ form .input-box input::placeholder {
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+
+.password-box {
+  margin: 2rem 0;
+}
+
+.password-box div input:checked {
+  border: 1px solid var(--paragraph-text);
+}
+
+.password-box div label {
+  font-weight: 600;
+}
+
+.password-box div a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.93rem;
 }
