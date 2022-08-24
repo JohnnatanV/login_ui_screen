@@ -19,7 +19,7 @@
 
 body {
   height: 100vh;
-  max-width: 1024px;
+  max-width: 1440px;
   margin: auto;
   display: flex;
   flex-direction: row-reverse;
@@ -109,6 +109,7 @@ form .input-box input {
 }
 
 form .input-box input::placeholder {
+  font-size: 0.9rem;
   color: rgb(184, 173, 214);
 }
 
@@ -131,11 +132,60 @@ form .input-box input::placeholder {
 }
 
 .password-box div label {
-  font-weight: 600;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
 .password-box div a {
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.93rem;
+  font-size: 0.83rem;
+}
+
+.btn-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  width: 100%;
+  height: 2.2rem;
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--main-color);
+  color: white;
+  cursor: pointer;
+}
+
+.google {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  border: 1px solid rgba(0, 0, 0, 0.21);
+}
+
+.svg-box {
+  width: 2rem;
+  margin-right: 10px;
+}
+
+.sign-up-btn {
+  display: inline-block;
+  margin: auto;
+  font-size: 0.8rem;
+  color: var(--paragraph-text);
+}
+
+.sign-up-btn a {
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: 500;
 }
